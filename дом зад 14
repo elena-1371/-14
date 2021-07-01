@@ -1,0 +1,13 @@
+ticklets=int(input(Namber of participants:))
+result=0
+
+for perin range(tickets):
+age=int(input(participants age:))
+if age<18:
+result+=0
+elif 18<=age <25:
+result+=990
+elif age <=25:result+=1390
+if tickets>3:
+result=result-(result*0.1)
+print(payment sum including discount, result)
